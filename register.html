@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Web Salman</title>
+    
+</head>
+<body style="background-color:  rgb(228, 246, 246);">
+    <header>
+        <img src="img/2-logo-putih.png" style="width: 75px; height: 75px;" alt="">
+        <h1  >Institut Widya Pratama</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a style="color: black;"  href="index.html">Home</a> </li>
+            <li>Register</li>
+        </ul>
+    </nav>
+    <main  >
+        
+        <section class="formulir-form">
+        <h1 class="page_title">Formulir Registrasi</h1>
+        <form action="">
+            <label for="Nama lengkap">Nama lengkap</label><br>
+            <input type="text" id="namalengkap" name="namalengkap" placeholder="isi nama lengkap der...."><br><br>
+            <label for="tempatlahir">Tempat lahir</label><br>
+            <input type="text" id="tempatlahir" name="tempatlahir" placeholder="isi tempat lahir der...."><br><br>
+            <label for="tanggal lahir">Tanggal lahir</label><br>
+            <input type="date" name="tanggallahir" id="tanggallahir"><br><br>
+            <label for="jeniskelamin">Jenis Kelamin :</label><br>
+            <input type="radio" name="jeniskelamin" id="laki-laki" value="laki-laki">
+            <label for="lakilaki">laki-laki</label>
+            <input type="radio" name="jeniskelamin" id="perempuan" value="perempuan">
+            <label for="perempuan">perempuan</label><br><br>
+            <label for="kota">Kota/Kabupaten :</label>
+            <select name="kota" id="kota">
+                <option value="Kota Pekalongwan">Kota Pekalongan</option>
+                <option value="Kab. Pekalongan">Kab. Pekalongan</optidon>
+                <option value="Kab.Batang">Kab.Batang</option>
+                <option value="Rep. Kergon">Rep. Kergon</option> 
+                <option value="Kesultanan Sapuro">Kesultanan Sapuro</option>   
+            </select><br><br>
+            <label for="alamat">Alamat Tinggal:</label><br>
+            <textarea id="alamat" name="alamat"rows="4" ></textarea><br><br>
+            <label for="nomor_hp">Nomor HP:</label><br>
+            <input type="tel" id="nomor_hp" name="nomor_hp"><br><br>
+            <button type="submit">Daftar</button>
+        </form>
+    </section>
+    </main>
+    <footer>
+        <div>
+            <p class="copyright"> <b> &copy; Institut Widya Pratama</b></p>
+        </div>
+    </footer>
+</body>
+</html>    

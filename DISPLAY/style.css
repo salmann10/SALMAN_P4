@@ -1,0 +1,30 @@
+html{
+    background-color: rgb(137, 193, 177);
+    padding: 10px;
+}
+body{
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 0;
+}
+header{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+main{
+    background-color: rgb(26, 133, 69);
+    margin: 10px;
+    padding: 10px;
+}
+nav{
+    background-color: rgb(38, 184, 123);
+    margin: 10px;
+}
+div{
+    background-color: rgb(156, 236, 183);
+     margin: 5px;
+     padding: 5px;
+     display: inline-block;
+     width: 200px;
+}
