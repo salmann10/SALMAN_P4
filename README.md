@@ -1,1 +1,1 @@
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/salmann10/SALMAN_P4/main/register.html
+https://salmann10.github.io/SALMAN_P4/
